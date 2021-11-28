@@ -1,0 +1,19 @@
+.reminder-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.reminder-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.person-name {
+  letter-spacing: 1px;
+}
+.person-age {
+  letter-spacing: 1px;
+  color: #666;
+}
