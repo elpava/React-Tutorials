@@ -1,4 +1,4 @@
-import Index from './components/Birthday-Reminder/Index';
+import Index from './components/Tours/Index';
 
 function App() {
   return <Index />;
