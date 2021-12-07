@@ -1,4 +1,4 @@
-import Index from './components/Tours/Index';
+import Index from './components/Review/Index';
 
 function App() {
   return <Index />;

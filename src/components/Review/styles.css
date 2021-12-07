@@ -1,0 +1,114 @@
+main {
+  min-height: 100vh;
+  background-color: #6495ed;
+  padding-top: 5rem;
+}
+.sectionCenter {
+  width: 80vw;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.titleReviews {
+  font-size: 2rem;
+  color: #0b1c3d;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: all 0.2s linear;
+}
+.underline {
+  display: inline-block;
+  width: 5rem;
+  height: 4px;
+  background-color: #e1ebff;
+}
+.reviews {
+  text-align: center;
+  background-color: #e1ebff;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+.imageContainer {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1rem;
+  position: relative;
+}
+.imageContainer::before {
+  content: '';
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #ffc400;
+}
+.imageContainer::after {
+  content: '\f10e';
+  font-family: 'Font Awesome 6 Pro';
+  font-size: 1.2rem;
+  font-weight: 900;
+  position: absolute;
+  top: -5px;
+  left: 8px;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  background-color: #072761;
+  border-radius: 100%;
+  z-index: 10;
+}
+.personImg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.personName {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+.personJob {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #004ad3;
+  margin-bottom: 6px;
+}
+.personInfo {
+  color: #072761;
+  margin-bottom: 12px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+  margin-bottom: 12px;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #004ad3;
+  cursor: pointer;
+}
+.surpriseBtn {
+  color: #005eff;
+  background-color: #bfd6ff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 13px;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .titleReviews {
+    font-size: 2.5rem;
+  }
+}
