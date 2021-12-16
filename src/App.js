@@ -1,4 +1,4 @@
-import Index from './components/Review/Index';
+import Index from './components/Accordion/Index';
 
 function App() {
   return <Index />;
