@@ -1,4 +1,4 @@
-import Index from './components/Menu/Index';
+import Index from './components/Tabs/Index';
 
 function App() {
   return <Index />;
