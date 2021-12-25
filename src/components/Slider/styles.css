@@ -1,0 +1,113 @@
+main {
+  min-height: 100vh;
+  background-color: #eef4ff;
+  padding: 4rem 0;
+  text-align: center;
+}
+.header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #3e4f88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+.header span {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #e45300;
+}
+.sliderContainer {
+  width: 80vw;
+  max-width: 800px;
+  height: 450px;
+  margin: 3rem auto 0;
+  position: relative;
+  overflow: hidden;
+}
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.7s ease-in;
+}
+.nextSlide {
+  transform: translateX(100%);
+}
+.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+.lastSlide {
+  transform: translateX(-100%);
+}
+.imageSection {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto 1rem auto;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #b5c1e9;
+  border-radius: 100%;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+.infoSection {
+  margin-bottom: 1rem;
+}
+.fullName {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #e45300;
+  margin-bottom: 0.3rem;
+}
+.job {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #253361;
+  margin-bottom: 2rem;
+}
+.description {
+  font-size: 1rem;
+  line-height: 2;
+  color: #7d89aa;
+  margin-bottom: 1rem;
+}
+.quoteIcon {
+  font-size: 3rem;
+  color: #e45300;
+}
+.sliderBtnsSection {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sliderBtnsSection button {
+  border: transparent;
+  background-color: transparent;
+}
+.icon {
+  font-size: 2rem;
+  color: #3e4f88;
+  transition: all 0.15s ease-in;
+}
+.icon:hover {
+  color: #e45300;
+}
+
+@media screen and (min-width: 800px) {
+}
+@media screen and (min-width: 992px) {
+}
