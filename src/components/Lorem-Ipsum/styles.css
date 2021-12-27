@@ -1,0 +1,73 @@
+main {
+  min-height: 100vh;
+  background-color: #e9e9e9;
+  padding: 5rem 0;
+}
+section {
+  max-width: 90vw;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #0f0f66;
+  margin-bottom: 2rem;
+}
+.loremGenerator {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.6rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+.labelInput {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+#inputNumber {
+  width: 5rem;
+  font-size: 1.3rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  caret-color: #ff00ff;
+  padding: 0.2rem 0.7rem;
+}
+#inputNumber:active,
+#inputNumber:focus {
+  outline: none;
+}
+.generateBtn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #eee;
+  background-color: #1e90ff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.4rem 1.2rem;
+  transition: all 0.2s linear;
+}
+.generateBtn:hover {
+  color: #1e90ff;
+  background-color: #f4f9ff;
+  border: 1px dashed #1e90ff;
+}
+.alert {
+  position: absolute;
+  bottom: -3rem;
+  color: #fff;
+  background-color: #ff1e44;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+}
+article {
+  max-width: 600px;
+  color: #4a6988;
+  margin-bottom: 2rem;
+}

@@ -1,4 +1,4 @@
-import Index from './components/Slider/Index';
+import Index from './components/Lorem-Ipsum/Index';
 
 function App() {
   return <Index />;
