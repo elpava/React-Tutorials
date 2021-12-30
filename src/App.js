@@ -1,4 +1,4 @@
-import Index from './components/Lorem-Ipsum/Index';
+import Index from './components/Color-Generator/Index';
 
 function App() {
   return <Index />;
